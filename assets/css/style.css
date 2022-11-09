@@ -1,0 +1,74 @@
+:root {
+    --primary-color: white;
+    --seconday-color: black;
+    --tertiary-color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: lightblue;
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: silver;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: black;
+}
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url("../images/truckandtrailer.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+.hero-services {
+   text-align: center;
+   color: white;
+   font-size: 27px;
+}
+
+.hero-services p {
+    padding: 10px;
+}
