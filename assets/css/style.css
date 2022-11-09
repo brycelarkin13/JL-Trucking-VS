@@ -16,7 +16,12 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    background-color: lightblue;
+    background-image: url("../images/truckandtrailer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 80%;
+    background-attachment: fixed;
+    background-color: skyblue;
 }
 
 header h1 {
@@ -62,13 +67,20 @@ section {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    opacity: 80%;
 }
 .hero-services {
    text-align: center;
    color: white;
    font-size: 27px;
+   width: 60%;
+}
+
+.hero-services h2 {
+   border-bottom: 3px solid;
+   padding-bottom: 0;
 }
 
 .hero-services p {
-    padding: 10px;
+    padding: 20px;
 }
