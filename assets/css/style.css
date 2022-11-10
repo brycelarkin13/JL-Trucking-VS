@@ -10,6 +10,8 @@
     box-sizing: border-box;
 }
 
+/* Header style */
+
 header {
     z-index: 9999;
     display: flex;
@@ -64,6 +66,8 @@ section {
     padding: 60px;
 }
 
+/* Services section */
+
 .hero {
     background-image: url("../images/truckandtrailer.jpg");
     background-size: cover;
@@ -92,6 +96,8 @@ section {
     padding: 20px;
     font-size: 26px;
 }
+
+/* Contact section */
 
 .contact-section{
     background-color: white;
