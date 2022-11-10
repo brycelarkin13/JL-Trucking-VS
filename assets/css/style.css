@@ -21,16 +21,17 @@ header {
     background-position: center;
     background-position: 80%;
     background-attachment: fixed;
-    opacity: 80%;
+    opacity: 90%;
     background-color: skyblue;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
-header h1 {
+header h1 a {
     color: black;
     margin: 0;
+    text-decoration: none;
 }
 
 header nav{
@@ -48,11 +49,13 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-decoration: none;
+    color: black;
 }
 
 header nav ul li a:hover {
     background: silver;
-    color: #024e76;
+    color: red;
     border-radius: 15px;
     text-shadow: black;
 }
@@ -71,20 +74,45 @@ section {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    opacity: 80%;
+    opacity: 90%;
 }
 .hero-services {
    text-align: center;
    color: white;
-   font-size: 27px;
-   width: 60%;
+   width: 70%;
 }
 
 .hero-services h2 {
-   border-bottom: 3px solid;
+   text-decoration: underline;
    padding-bottom: 0;
+   font-size: 30px;
 }
 
 .hero-services p {
     padding: 20px;
+    font-size: 26px;
+}
+
+.contact-section{
+    background-color: white;
+}
+
+.contact-section h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.contact-info {
+    padding: 5px;
+}
+
+.contact-info h3 {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.contact-info p {
+    font-size: 26px;
+    padding: 5px;
 }
