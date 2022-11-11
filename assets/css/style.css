@@ -1,7 +1,7 @@
 :root {
     --primary-color: white;
     --seconday-color: black;
-    --tertiary-color: orange;
+    --tertiary-color: red;
 }
 
 * {
@@ -92,11 +92,17 @@ section {
    text-decoration: underline;
    padding-bottom: 0;
    font-size: 30px;
+   font-family: 'Faster One';
+   color: black;
 }
 
 .hero-services p {
     padding: 20px;
     font-size: 26px;
+    font-family: 'Big Shoulders Stencil Text';
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bolder;
 }
 
 .pageBreak {
@@ -118,11 +124,15 @@ section {
 .contact-section h2 {
     text-align: center;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 32px;
+    font-family: 'Big Shoulders Stencil Text';
+    letter-spacing: 1px;
 }
 
 .contact-info {
     padding: 5px;
+    font-family: 'Big Shoulders Stencil Text';
+    letter-spacing: 1px;
 }
 
 .contact-info h3 {
