@@ -142,3 +142,21 @@ section {
     font-size: 26px;
     padding: 5px;
 }
+
+/* Footer styleing */
+
+.footer-wrapper {
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Big Shoulders Stencil Text';
+}
+
+.footer-wrapper h4 {
+    margin: 0;
+}
+.footer-wrapper h4 div {
+    text-align: right;
+}
