@@ -50,7 +50,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.85vw;
     text-decoration: none;
     color: black;
     font-family: 'Faster One';
@@ -77,9 +77,10 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: 80%;
 }
+
 .hero-services {
    text-align: center;
    width: 70%;
@@ -108,7 +109,7 @@ section {
     padding: 50px;
     border: 10px;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Faster One';
     flex-wrap: wrap;
 }
