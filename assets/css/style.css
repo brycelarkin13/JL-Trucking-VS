@@ -24,7 +24,6 @@ header {
     background-position: 80%;
     background-attachment: fixed;
     background-color: skyblue;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -125,6 +124,12 @@ section {
     font-size: 32px;
     font-family: 'Big Shoulders Stencil Text';
     letter-spacing: 1px;
+    padding: 20px;
+    border: 5px;
+}
+
+.contact-info img {
+    border-radius: 50%;
 }
 
 .contact-info {
